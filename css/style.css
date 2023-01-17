@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+
+/* 
+*  Intestazione Sito
+*/
+header {
+    padding-left: 20px;
+    background-color: white;
+    border-bottom: 2px solid #F6F8F9;
+    box-sizing: border-box;
+}
+
+#logo {
+    vertical-align: middle;
+}
+
+#logo-text {
+    display: inline-block;
+    vertical-align: middle;
+}
