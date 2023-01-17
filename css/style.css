@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #F6F8F9;
 }
 
 
@@ -9,7 +10,7 @@ body {
 header {
     padding-left: 20px;
     background-color: white;
-    border-bottom: 2px solid #F6F8F9;
+    border-bottom: 2px solid #e9edef;
     box-sizing: border-box;
 }
 
@@ -20,4 +21,21 @@ header {
 #logo-text {
     display: inline-block;
     vertical-align: middle;
+}
+
+
+.container {
+    width: 80%;
+    margin: 50px auto 50px;
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.menu {
+    height: 50px;
+    padding-top: 25px;
+    padding-left: 50px;
+    border-bottom: 2px solid #F6F8F9;
+
 }
