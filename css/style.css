@@ -92,6 +92,8 @@ header {
 
 li {
     list-style-type: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* Testo attività */
