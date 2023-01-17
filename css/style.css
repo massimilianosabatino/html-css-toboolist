@@ -8,7 +8,7 @@ body {
 *  Intestazione Sito
 */
 header {
-    padding-left: 20px;
+    padding: 20px 10px;
     background-color: white;
     border-bottom: 2px solid #e9edef;
     box-sizing: border-box;
@@ -21,6 +21,7 @@ header {
 #logo-text {
     display: inline-block;
     vertical-align: middle;
+    margin: 0;
 }
 
 
@@ -62,4 +63,73 @@ header {
     color: #e9edef;
     background-color: white;
     border: 2px solid #C8CED3;
+}
+
+
+/* 
+*  Grafica task
+*/
+
+/* Categorie */
+.categories {
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.categories::before {
+    content: '\25BE';
+    margin-right: 5px;
+}
+
+/* Attività */
+.activity {
+    margin-left: 50px;
+}
+
+.activity > ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* Testo attività */
+.check {
+    
+}
+
+/* Icone prime di attività */
+.check::before {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    content: '\2713';
+    color: #64C0A9;
+    border: 2px solid #64C0A9;
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+
+.no::before {
+    content: '\2715';
+    color: red;
+    border: 2px solid red;
+    line-height: 16px;
+}
+
+/* Tags dopo attività */
+.editorial::after {
+    content: 'Editorial';
+    font-size: 12px;
+    color: white;
+    background-color: #45ABEA;
+    border-radius: 15px;
+    padding: 7px 10px;
+    margin-left: 10px;
+    vertical-align: middle;
 }
