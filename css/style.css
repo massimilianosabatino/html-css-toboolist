@@ -55,6 +55,7 @@ header {
 
 .button {
     border-radius: 6px;
+    font-family: inherit;
     font-size: 12px;
     padding: 5px 10px;
 }
